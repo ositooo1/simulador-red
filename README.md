@@ -24,3 +24,9 @@ luego de los primeros mensajes enviados por el servidor simulan una desconedxion
 despues se utilizo time.sleep(2) para representar un retraso en la red
 
 finalmente se volvio a establecer la conexion con el cliente y se envio un mensaje de vuelta
+
+parte 3 >>>>>
+
+en la bonita parte 3 incorpore un buffer en cada nodo para simular la gestion de la red, los mensajes recibidos ya no se procesan directamente, sino que se almacenan temporalmente
+
+agregue procesar_buffer que permite procesar los mensajes almacenados
